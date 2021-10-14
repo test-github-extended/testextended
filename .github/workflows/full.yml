@@ -21,5 +21,6 @@ jobs:
           SRC_ORG: ${{ secrets.SRC_ORG }}
           DST_ORG: ${{ secrets.DST_ORG }}
         run: |
+            pip install pip-upgrade-tool
             pip install pygithub
             python -u mirror_github_org.py --full-run
