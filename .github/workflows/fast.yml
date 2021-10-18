@@ -1,8 +1,8 @@
 name: Fast update
 on: 
-  workflow_dispatch:
-  schedule:
-    - cron: '0 * * * *'
+  # workflow_dispatch:
+  # schedule:
+  #   - cron: '0 * * * *'
 jobs:
   fast-update:
     runs-on: ubuntu-latest
